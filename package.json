@@ -1,0 +1,40 @@
+{
+  "name": "marketing",
+  "version": "0.0.1",
+  "description": "api server handle mysql",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pm2-dev start pm2.config.js --env='development'",
+    "dev-run": "pm2 start pm2.config.js --env='development'",
+    "prod": "pm2 start pm2.config.js --env='production'",
+    "dev113": "pm2-dev start pm2.config.js --env='dev'",
+    "rsync-dev": "rsync -avL --exclude=node_modules --exclude=client --exclude=upload/ --exclude=.git ./ namnh@10.11.0.113:/home/namnh/mail",
+    "rsync-prod": "rsync -avL --exclude=node_modules --exclude=client --exclude=upload/ --exclude=.git ./ vcsc@10.11.0.116:/home/vcsc/mail"
+  },
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "busboy": "^0.3.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-validator": "^6.5.0",
+    "image-data-uri": "^2.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.22",
+    "node-cron": "^2.0.3",
+    "node-excel-export": "^1.4.4",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.10",
+    "puppeteer": "^5.5.0",
+    "qs": "^6.9.4",
+    "read-excel-file": "^4.0.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

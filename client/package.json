@@ -1,0 +1,39 @@
+{
+  "name": "BLOG",
+  "version": "0.0.1",
+  "description": "BLOG Project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --process --colors\" --disable-host-check",
+    "build": "del build && webpack --config webpack.prod.js && copy ./build/* ../public && copy ./public/imgs/* ../public/imgs",
+    "build-dev": "del build && webpack --config webpack.dev.js && copy ./build/* ../public",
+    "build-local": "del build && webpack --config webpack.dev.js"
+  },
+  "keywords": [
+    "fengshui"
+  ],
+  "author": "nam.nguyen@paradoxcapsule.studio",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/plugin-transform-react-jsx": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/runtime": "^7.7.2",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "nodemon": "^2.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "@lottiefiles/react-lottie-player": "^2.2.1",
+    "babel-loader": "^8.0.6",
+    "emotion": "^10.0.23",
+    "html-loader": "^1.1.0",
+    "preact": "^10.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

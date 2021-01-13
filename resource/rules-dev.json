@@ -1,0 +1,131 @@
+{
+    "region": [
+        {
+            "name": "HOCHIMINH",
+            "display_name": "Hồ Chí Minh",
+            "code": "001",
+            "count": 5,
+            "max": 80
+        },
+        {
+            "name": "HANOI",
+            "display_name": "Hà Nội",
+            "code": "002",
+            "count": 0,
+            "max": 20
+        }
+    ],
+    "brands": [
+        {
+            "region": "HANOI",
+            "name": "HN",
+            "code": "01",
+            "display_name": "01 - Hà Nội",
+            "max": 20,
+            "count": 0,
+            "cc": [
+                "ty.luu@vcsc.com.vn"
+            ]
+        },
+        {
+            "region": "HOCHIMINH",
+            "name": "NGUYENHUE",
+            "display_name": "01 - Hội sở",
+            "code": "01",
+            "count": 2,
+            "max": 20,
+            "cc": [
+                "ty.luu@vcsc.com.vn"
+            ]
+        },
+        {
+            "region": "HOCHIMINH",
+            "name": "236",
+            "display_name": "02 - Nguyễn Công Trứ",
+            "code": "02",
+            "count": 2,
+            "max": 20,
+            "cc": [
+                "ty.luu@vcsc.com.vn"
+            ]
+        },
+        {
+            "region": "HOCHIMINH",
+            "display_name": "04 - ABS",
+            "name": "ABS",
+            "code": "04",
+            "count": 1,
+            "max": 40,
+            "cc": [
+                "quang.buikhac@vcsc.com.vn"
+            ]
+        }
+    ],
+    "users": [
+        {
+            "name": "Ty Luu",
+            "user_name": "tyld",
+            "email": "ty.luu@vcsc.com.vn",
+            "count": 0,
+            "brand": "HN",
+            "region": "HANOI",
+            "max": 10000,
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "10 Nguyễn Huệ, Phường Bến Nghé, Quận 1, Hồ Chí Minh"
+        },
+        {
+            "name": "Qui Tran",
+            "user_name": "quitt",
+            "email": "qui.tran@vcsc.com.vn",
+            "count": 2,
+            "brand": "NGUYENHUE",
+            "region": "HOCHIMINH",
+            "max": 10000,
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "10 Nguyễn Huệ, Phường Bến Nghé, Quận 1, Hồ Chí Minh"
+        },
+        {
+            "name": "Khang Le",
+            "user_name": "khanglv",
+            "email": "khang.le@vcsc.com.vn",
+            "count": 1,
+            "brand": "ABS",
+            "region": "HOCHIMINH",
+            "max": 10000,
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "10 Nguyễn Huệ, Phường Bến Nghé, Quận 1, Hồ Chí Minh"
+        },
+        {
+            "name": "Cuong Cao",
+            "user_name": "cuongau",
+            "email": "cuong.cao@vcsc.com.vn",
+            "count": 2,
+            "brand": "236",
+            "region": "HOCHIMINH",
+            "max": 10000,
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "10 Nguyễn Huệ, Phường Bến Nghé, Quận 1, Hồ Chí Minh"
+        },
+        {
+            "name": "Duc Tran",
+            "user_name": "ductn",
+            "email": "duc.tran@vcsc.com.vn",
+            "count": 4,
+            "brand": "ABS",
+            "region": "HOCHIMINH",
+            "max": 10000,
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "10 Nguyễn Huệ, Phường Bến Nghé, Quận 1, Hồ Chí Minh"
+        }
+    ]
+}

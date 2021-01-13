@@ -1,0 +1,19 @@
+<svg width="1180" height="480" viewBox="0 0 1180 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1180" height="480" rx="16" fill="url(#paint0_linear)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1180" height="440">
+<rect width="1180" height="440" rx="16" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M61.4252 473.378C83.2899 495.242 83.2899 530.692 61.4252 552.557C39.5606 574.421 4.11095 574.421 -17.7537 552.557C-39.6184 530.692 -39.6184 495.242 -17.7537 473.378C4.11095 451.513 39.5606 451.513 61.4252 473.378Z" stroke="#E5F1FF" stroke-width="8"/>
+<path d="M57.6097 335.39C49.6624 343.337 36.7771 343.337 28.8297 335.39C20.8823 327.443 20.8823 314.557 28.8297 306.61C36.7771 298.662 49.6624 298.662 57.6097 306.61C65.5571 314.557 65.5571 327.443 57.6097 335.39Z" fill="#E5F1FF"/>
+<path d="M1150.46 238.458C1159.75 229.169 1159.75 214.108 1150.46 204.819C1141.17 195.53 1126.11 195.53 1116.82 204.819C1107.53 214.108 1107.53 229.169 1116.82 238.458C1126.11 247.747 1141.17 247.747 1150.46 238.458Z" fill="#E5F1FF"/>
+<circle cx="1098.5" cy="13.5" r="122.5" stroke="#E6F1FF" stroke-width="24"/>
+<circle cx="21.5" cy="18.5" r="148.5" stroke="#E5F1FF" stroke-width="16"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1134.23" y2="574.471" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4F9FF"/>
+<stop offset="1" stop-color="#EAF3FF"/>
+</linearGradient>
+</defs>
+</svg>

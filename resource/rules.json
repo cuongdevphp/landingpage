@@ -1,0 +1,268 @@
+{
+    "region": [
+        {
+            "name": "HOCHIMINH",
+            "count": 3,
+            "display_name": "Hồ Chí Minh",
+            "code": "001",
+            "max": 80
+        },
+        {
+            "name": "HANOI",
+            "count": 0,
+            "display_name": "Hà Nội",
+            "code": "002",
+            "max": 20
+        }
+    ],
+    "brands": [
+        {
+            "region": "HANOI",
+            "name": "HN",
+            "max": 20,
+            "count": 0,
+            "code": "01",
+            "display_name": "01 - Hà Nội",
+            "cc": [
+                "Quang.Nguyen@vcsc.com.vn",
+                "Hang.Do@vcsc.com.vn"
+            ]
+        },
+        {
+            "region": "HOCHIMINH",
+            "name": "NGUYENHUE",
+            "display_name": "01 - Hội sở",
+            "code": "01",
+            "count": 1,
+            "max": 20,
+            "cc": [
+                "nguyen.phan@vcsc.com.vn",
+                "Loan.Nguyen@vcsc.com.vn",
+                "Hong.Tran@vcsc.com.vn"
+            ]
+        },
+        {
+            "region": "HOCHIMINH",
+            "name": "236",
+            "display_name": "02 - Nguyễn Công Trứ",
+            "code": "02",
+            "count": 1,
+            "max": 20,
+            "cc": [
+                "Anh.Ly@vcsc.com.vn",
+                "Y.Le@vcsc.com.vn",
+                "De.Vuong@vcsc.com.vn"
+            ]
+        },
+        {
+            "region": "HOCHIMINH",
+            "display_name": "04 - ABS",
+            "name": "ABS",
+            "code": "04",
+            "count": 1,
+            "max": 40,
+            "cc": [
+                "vu.pham@vcsc.com.vn",
+                "Thi.Nguyen@vcsc.com.vn",
+                "Loan.Pham@vcsc.com.vn"
+            ]
+        }
+    ],
+    "users": [
+        {
+            "user_name": "trungpt",
+            "name": "Phạm Thành Trung",
+            "email": "trung.pham@vcsc.com.vn",
+            "count": 0,
+            "brand": "HN",
+            "region": "HANOI",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "hoanda",
+            "name": "Đặng Thị Ánh Hoàn",
+            "email": "hoan.dang@vcsc.com.vn",
+            "count": 0,
+            "brand": "HN",
+            "region": "HANOI",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "namlh",
+            "name": "Lại Hoàng Nam",
+            "email": "nam.lai@vcsc.com.vn",
+            "count": 0,
+            "brand": "HN",
+            "region": "HANOI",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "chungdn",
+            "name": "Đặng Như Chung",
+            "email": "chung.dang@vcsc.com.vn",
+            "count": 0,
+            "brand": "HN",
+            "region": "HANOI",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "cuongdq",
+            "name": "Dương Quốc Cường",
+            "email": "cuong.duong@vcsc.com.vn",
+            "count": 1,
+            "brand": "NGUYENHUE",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "thaontt",
+            "name": "Nguyễn Thị Thu Thảo",
+            "email": "thao.nguyenthu@vcsc.com.vn",
+            "count": 0,
+            "brand": "NGUYENHUE",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "toannk",
+            "name": "Nguyễn Khắc Toàn",
+            "email": "toan.nguyenkhac@vcsc.com.vn",
+            "count": 0,
+            "brand": "NGUYENHUE",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "minhdt",
+            "name": "Dương Tuyết Minh",
+            "email": "minh.duong@vcsc.com.vn",
+            "count": 0,
+            "brand": "NGUYENHUE",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "minhth",
+            "name": "Trương Hoa Minh",
+            "email": "minh.truonghoa@vcsc.com.vn",
+            "count": 0,
+            "brand": "NGUYENHUE",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "phuochd",
+            "name": "Huỳnh Thị Diễm Phước",
+            "email": "phuoc.huynh@vcsc.com.vn",
+            "count": 15,
+            "brand": "ABS",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "ngoclb",
+            "name": "Lại Thị Bích Ngọc",
+            "email": "ngoc.lai@vcsc.com.vn",
+            "count": 1,
+            "brand": "236",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "dungthp",
+            "name": "Trương Hoàng Phương Dung",
+            "email": "dung.truong@vcsc.com.vn",
+            "count": 0,
+            "brand": "236",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "dieunt",
+            "name": "Nguyễn Thị Thanh Diệu",
+            "email": "dieu.nguyen@vcsc.com.vn",
+            "count": 0,
+            "brand": "236",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "huongnk",
+            "name": "Nguyễn Khánh Hương",
+            "email": "huong.nguyenkhanh@vcsc.com.vn",
+            "count": 0,
+            "brand": "236",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        },
+        {
+            "user_name": "tungnp",
+            "name": "Nguyễn Phương Tùng",
+            "email": "tung.nguyenphuong@vcsc.com.vn",
+            "count": 0,
+            "brand": "236",
+            "region": "HOCHIMINH",
+            "full_name": "",
+            "mobile": "",
+            "phone_number": "",
+            "address_branch": "",
+            "max": 10000
+        }
+    ]
+}

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<!-- Created by pdf2htmlEX (https://github.com/coolwanglu/pdf2htmlex) -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<meta name="generator" content="pdf2htmlEX"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+<title>03-ĐKNH - {{user.name}}</title>
+<style type="text/css">
+/*! 
+ * Base CSS for pdf2htmlEX
+ * Copyright 2012,2013 Lu Wang <coolwanglu@gmail.com> 
+ * https://github.com/coolwanglu/pdf2htmlEX/blob/master/share/LICENSE
+ */#sidebar{position:absolute;top:0;left:0;bottom:0;width:250px;padding:0;margin:0;overflow:auto}#page-container{position:absolute;top:0;left:0;margin:0;padding:0;border:0}@media screen{#sidebar.opened+#page-container{left:250px}#page-container{bottom:0;right:0;overflow:auto}.loading-indicator{display:none}.loading-indicator.active{display:block;position:absolute;width:64px;height:64px;top:50%;left:50%;margin-top:-32px;margin-left:-32px}.loading-indicator img{position:absolute;top:0;left:0;bottom:0;right:0}}@media print{@page{margin:0}html{margin:0}body{margin:0;-webkit-print-color-adjust:exact}#sidebar{display:none}#page-container{width:auto;height:auto;overflow:visible;background-color:transparent}.d{display:none}}.pf{position:relative;background-color:white;overflow:hidden;margin:0;border:0}.pc{position:absolute;border:0;padding:0;margin:0;top:0;left:0;width:100%;height:100%;overflow:hidden;display:block;transform-origin:0 0;-ms-transform-origin:0 0;-webkit-transform-origin:0 0}.pc.opened{display:block}.bf{position:absolute;border:0;margin:0;top:0;bottom:0;width:100%;height:100%;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none}.bi{position:absolute;border:0;margin:0;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none}@media print{.pf{margin:0;box-shadow:none;page-break-after:always;page-break-inside:avoid}@-moz-document url-prefix(){.pf{overflow:visible;border:1px solid #fff}.pc{overflow:visible}}}.c{position:absolute;border:0;padding:0;margin:0;overflow:hidden;display:block}.t{position:absolute;white-space:pre;font-size:1px;transform-origin:0 100%;-ms-transform-origin:0 100%;-webkit-transform-origin:0 100%;unicode-bidi:bidi-override;-moz-font-feature-settings:"liga" 0}.t:after{content:''}.t:before{content:'';display:inline-block}.t span{position:relative;unicode-bidi:bidi-override}._{display:inline-block;color:transparent;z-index:-1}::selection{background:rgba(127,255,255,0.4)}::-moz-selection{background:rgba(127,255,255,0.4)}.pi{display:none}.d{position:absolute;transform-origin:0 100%;-ms-transform-origin:0 100%;-webkit-transform-origin:0 100%}.it{border:0;background-color:rgba(255,255,255,0.0)}.ir:hover{cursor:pointer}</style>
+<style type="text/css">
+/*! 
+ * Fancy styles for pdf2htmlEX
+ * Copyright 2012,2013 Lu Wang <coolwanglu@gmail.com> 
+ * https://github.com/coolwanglu/pdf2htmlEX/blob/master/share/LICENSE
+ */@keyframes fadein{from{opacity:0}to{opacity:1}}@-webkit-keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes swing{0{transform:rotate(0)}10%{transform:rotate(0)}90%{transform:rotate(720deg)}100%{transform:rotate(720deg)}}@-webkit-keyframes swing{0{-webkit-transform:rotate(0)}10%{-webkit-transform:rotate(0)}90%{-webkit-transform:rotate(720deg)}100%{-webkit-transform:rotate(720deg)}}@media screen{#sidebar{background-color:#2f3236;background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgo8cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSI0IiBmaWxsPSIjNDAzYzNmIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMNCA0Wk00IDBMMCA0WiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2U9IiMxZTI5MmQiPjwvcGF0aD4KPC9zdmc+")}#outline{font-family:Georgia,Times,"Times New Roman",serif;font-size:13px;margin:2em 1em}#outline ul{padding:0}#outline li{list-style-type:none;margin:1em 0}#outline li>ul{margin-left:1em}#outline a,#outline a:visited,#outline a:hover,#outline a:active{line-height:1.2;color:#e8e8e8;text-overflow:ellipsis;white-space:nowrap;text-decoration:none;display:block;overflow:hidden;outline:0}#outline a:hover{color:#0cf}#page-container{background-color:#9e9e9e;background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjOWU5ZTllIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiM4ODgiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=");-webkit-transition:left 500ms;transition:left 500ms}.pf{margin:13px auto;box-shadow:1px 1px 3px 1px #333;border-collapse:separate}.pc.opened{-webkit-animation:fadein 100ms;animation:fadein 100ms}.loading-indicator.active{-webkit-animation:swing 1.5s ease-in-out .01s infinite alternate none;animation:swing 1.5s ease-in-out .01s infinite alternate none}.checked{background:no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goQDSYgDiGofgAAAslJREFUOMvtlM9LFGEYx7/vvOPM6ywuuyPFihWFBUsdNnA6KLIh+QPx4KWExULdHQ/9A9EfUodYmATDYg/iRewQzklFWxcEBcGgEplDkDtI6sw4PzrIbrOuedBb9MALD7zv+3m+z4/3Bf7bZS2bzQIAcrmcMDExcTeXy10DAFVVAQDksgFUVZ1ljD3yfd+0LOuFpmnvVVW9GHhkZAQcxwkNDQ2FSCQyRMgJxnVdy7KstKZpn7nwha6urqqfTqfPBAJAuVymlNLXoigOhfd5nmeiKL5TVTV+lmIKwAOA7u5u6Lped2BsbOwjY6yf4zgQQkAIAcedaPR9H67r3uYBQFEUFItFtLe332lpaVkUBOHK3t5eRtf1DwAwODiIubk5DA8PM8bYW1EU+wEgCIJqsCAIQAiB7/u253k2BQDDMJBKpa4mEon5eDx+UxAESJL0uK2t7XosFlvSdf0QAEmlUnlRFJ9Waho2Qghc1/U9z3uWz+eX+Wr+lL6SZfleEAQIggA8z6OpqSknimIvYyybSCReMsZ6TislhCAIAti2Dc/zejVNWwCAavN8339j27YbTg0AGGM3WltbP4WhlRWq6Q/btrs1TVsYHx+vNgqKoqBUKn2NRqPFxsbGJzzP05puUlpt0ukyOI6z7zjOwNTU1OLo6CgmJyf/gA3DgKIoWF1d/cIY24/FYgOU0pp0z/Ityzo8Pj5OTk9PbwHA+vp6zWghDC+VSiuRSOQgGo32UErJ38CO42wdHR09LBQK3zKZDDY2NupmFmF4R0cHVlZWlmRZ/iVJUn9FeWWcCCE4ODjYtG27Z2Zm5juAOmgdGAB2d3cBADs7O8uSJN2SZfl+WKlpmpumaT6Yn58vn/fs6XmbhmHMNjc3tzDGFI7jYJrm5vb29sDa2trPC/9aiqJUy5pOp4f6+vqeJ5PJBAB0dnZe/t8NBajx/z37Df5OGX8d13xzAAAAAElFTkSuQmCC)}}</style>
+<style type="text/css">
+    .ff0{font-family:sans-serif;visibility:hidden;}
+    @font-face{font-family:ff1;src:url('{{host}}/assets/fonts/3/ff1.woff')format("woff");}.ff1{font-family:ff1;line-height:1.096191;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff2;src:url('{{host}}/assets/fonts/3/ff2.woff')format("woff");}.ff2{font-family:ff2;line-height:1.120199;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff3;src:url('{{host}}/assets/fonts/3/ff3.woff')format("woff");}.ff3{font-family:ff3;line-height:1.432129;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff4;src:url('{{host}}/assets/fonts/3/ff4.woff')format("woff");}.ff4{font-family:ff4;line-height:1.364258;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff5;src:url('{{host}}/assets/fonts/3/ff5.woff')format("woff");}.ff5{font-family:ff5;line-height:1.106934;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff6;src:url('{{host}}/assets/fonts/3/ff6.woff')format("woff");}.ff6{font-family:ff6;line-height:1.104546;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff7;src:url('{{host}}/assets/fonts/3/ff7.woff')format("woff");}.ff7{font-family:ff7;line-height:1.322266;font-style:normal;font-weight:normal;visibility:visible;}
+    @font-face{font-family:ff8;src:url('{{host}}/assets/fonts/3/ff8.woff')format("woff");}.ff8{font-family:ff8;line-height:1.394043;font-style:normal;font-weight:normal;visibility:visible;}
+    /* @font-face{font-family:ff9;src:url('')format("woff");}.ff9{font-family:ff9;line-height:1.102539;font-style:normal;font-weight:normal;visibility:visible;} */
+    .m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
+    .v0{vertical-align:0.000000px;}
+    .ls2{letter-spacing:-0.996000px;}
+    .ls4{letter-spacing:-0.756000px;}
+    .ls6{letter-spacing:-0.071200px;}
+    .ls3{letter-spacing:-0.035520px;}
+    .ls0{letter-spacing:0.000000px;}
+    .ls1{letter-spacing:0.072000px;}
+    .ls5{letter-spacing:0.444000px;}
+    .sc_{text-shadow:none;}
+    .sc0{text-shadow:-0.015em 0 transparent,0 0.015em transparent,0.015em 0 transparent,0 -0.015em  transparent;}
+    @media screen and (-webkit-min-device-pixel-ratio:0){
+    .sc_{-webkit-text-stroke:0px transparent;}
+    .sc0{-webkit-text-stroke:0.015em transparent;text-shadow:none;}
+    }
+    .ws0{word-spacing:0.000000px;}
+    ._7{margin-left:-10.072480px;}
+    ._8{margin-left:-8.465440px;}
+    ._2{margin-left:-5.685760px;}
+    ._3{margin-left:-3.781600px;}
+    ._6{margin-left:-2.664480px;}
+    ._1{margin-left:-1.468320px;}
+    ._0{width:1.149120px;}
+    ._9{width:2.219520px;}
+    ._f{width:3.266880px;}
+    ._10{width:4.661280px;}
+    ._11{width:5.789280px;}
+    ._5{width:8.656320px;}
+    ._4{width:9.830880px;}
+    ._d{width:94.179840px;}
+    ._e{width:119.753760px;}
+    ._12{width:150.213760px;}
+    ._b{width:299.490080px;}
+    ._a{width:463.580640px;}
+    ._c{width:926.219840px;}
+    .fc1{color:rgb(23,54,93);}
+    .fc0{color:rgb(0,0,0);}
+    .fs5{font-size:20.160000px;}
+    .fs7{font-size:24.000000px;}
+    .fs2{font-size:36.000000px;}
+    .fs3{font-size:39.840000px;}
+    .fs0{font-size:44.160000px;}
+    .fs6{font-size:56.160000px;}
+    .fs1{font-size:63.840000px;}
+    .fs4{font-size:72.000000px;}
+    .y1{bottom:0.000000px;}
+    .y13{bottom:2.400000px;}
+    .y5{bottom:2.880000px;}
+    .y24{bottom:4.230000px;}
+    .y3f{bottom:7.080000px;}
+    .y22{bottom:7.200000px;}
+    .y1a{bottom:7.920000px;}
+    .y20{bottom:13.920000px;}
+    .y12{bottom:15.120000px;}
+    .y0{bottom:16.000000px;}
+    .y4{bottom:16.320000px;}
+    .y3e{bottom:18.480000px;}
+    .y31{bottom:28.200000px;}
+    .y11{bottom:29.400000px;}
+    .y3{bottom:29.760000px;}
+    .y3d{bottom:30.000000px;}
+    .y2a{bottom:31.200000px;}
+    .y19{bottom:31.220000px;}
+    .y1f{bottom:31.440000px;}
+    .y30{bottom:35.160000px;}
+    .y1e{bottom:48.960000px;}
+    .y5f{bottom:52.200000px;}
+    .y29{bottom:54.360000px;}
+    .y18{bottom:54.380000px;}
+    .y2b{bottom:60.720000px;}
+    .y5e{bottom:65.400000px;}
+    .y1d{bottom:66.360000px;}
+    .y2d{bottom:66.480000px;}
+    .y28{bottom:71.640000px;}
+    .y17{bottom:71.660000px;}
+    .y5d{bottom:82.560000px;}
+    .y1c{bottom:84.000000px;}
+    .y2c{bottom:84.020000px;}
+    .y27{bottom:95.040000px;}
+    .y16{bottom:95.060000px;}
+    .y5c{bottom:95.880000px;}
+    .y5b{bottom:109.080000px;}
+    .y26{bottom:118.200000px;}
+    .y15{bottom:118.220000px;}
+    .y5a{bottom:122.280000px;}
+    .y59{bottom:135.480000px;}
+    .y58{bottom:148.820000px;}
+    .y25{bottom:161.540000px;}
+    .y57{bottom:162.020000px;}
+    .y56{bottom:175.220000px;}
+    .y55{bottom:188.420000px;}
+    .y54{bottom:201.620000px;}
+    .y53{bottom:214.940000px;}
+    .y52{bottom:228.140000px;}
+    .y51{bottom:241.340000px;}
+    .y50{bottom:254.540000px;}
+    .y4f{bottom:267.740000px;}
+    .y4e{bottom:281.060000px;}
+    .y4d{bottom:294.260000px;}
+    .y23{bottom:296.540000px;}
+    .y4c{bottom:307.490000px;}
+    .y21{bottom:316.370000px;}
+    .y4b{bottom:320.690000px;}
+    .y4a{bottom:333.890000px;}
+    .y1b{bottom:335.570000px;}
+    .y49{bottom:347.210000px;}
+    .y48{bottom:360.410000px;}
+    .y47{bottom:373.610000px;}
+    .y46{bottom:386.810000px;}
+    .y45{bottom:400.010000px;}
+    .y44{bottom:413.330000px;}
+    .y43{bottom:426.530000px;}
+    .y14{bottom:436.370000px;}
+    .y42{bottom:439.730000px;}
+    .y41{bottom:452.930000px;}
+    .y40{bottom:466.150000px;}
+    .y3c{bottom:475.390000px;}
+    .y3b{bottom:536.710000px;}
+    .y3a{bottom:567.790000px;}
+    .y10{bottom:571.390000px;}
+    .y39{bottom:585.070000px;}
+    .y38{bottom:602.230000px;}
+    .y37{bottom:619.540000px;}
+    .yf{bottom:636.820000px;}
+    .ye{bottom:653.980000px;}
+    .y36{bottom:654.100000px;}
+    .yd{bottom:671.260000px;}
+    .yc{bottom:688.540000px;}
+    .y35{bottom:705.820000px;}
+    .yb{bottom:705.940000px;}
+    .ya{bottom:722.980000px;}
+    .y34{bottom:723.100000px;}
+    .y9{bottom:740.260000px;}
+    .y8{bottom:757.540000px;}
+    .y33{bottom:757.660000px;}
+    .y7{bottom:774.000000px;}
+    .y32{bottom:780.840000px;}
+    .y6{bottom:788.760000px;}
+    .y2f{bottom:793.200000px;}
+    .y2e{bottom:803.000000px;}
+    .y2{bottom:803.520000px;}
+    .he{height:17.760000px;}
+    .h10{height:18.264000px;}
+    .hf{height:21.282187px;}
+    .h15{height:25.335938px;}
+    .h14{height:31.500000px;}
+    .h7{height:35.715938px;}
+    .h4{height:37.423828px;}
+    .h16{height:39.240000px;}
+    .ha{height:39.483333px;}
+    .hb{height:39.742734px;}
+    .h17{height:40.540313px;}
+    .h5{height:41.415703px;}
+    .h6{height:42.057656px;}
+    .h2{height:43.922812px;}
+    .h8{height:45.984000px;}
+    .h11{height:59.286094px;}
+    .h9{height:65.185547px;}
+    .h3{height:67.393594px;}
+    .hd{height:99.240000px;}
+    .h13{height:99.264000px;}
+    .h12{height:133.440000px;}
+    .hc{height:133.460000px;}
+    .h1{height:818.500000px;}
+    .h0{height:841.680000px;}
+    .w6{width:115.340000px;}
+    .w5{width:116.000000px;}
+    .w7{width:118.580000px;}
+    .w8{width:133.100000px;}
+    .w9{width:149.570000px;}
+    .w3{width:538.680000px;}
+    .w4{width:540.120000px;}
+    .w1{width:541.500000px;}
+    .w2{width:595.439991px;}
+    .w0{width:595.440000px;}
+    .x1{left:0.000009px;}
+    .x8{left:5.400000px;}
+    .xc{left:12.600000px;}
+    .xf{left:14.280000px;}
+    .x7{left:17.280000px;}
+    .xb{left:22.344000px;}
+    .x0{left:28.000000px;}
+    .x6{left:29.520000px;}
+    .xe{left:35.430000px;}
+    .xa{left:39.480000px;}
+    .x11{left:42.620000px;}
+    .x13{left:51.990000px;}
+    .x9{left:64.823991px;}
+    .x5{left:99.503991px;}
+    .x2{left:144.379991px;}
+    .xd{left:154.820000px;}
+    .x10{left:273.410000px;}
+    .x4{left:295.029991px;}
+    .x3{left:297.789991px;}
+    .x14{left:352.869991px;}
+    .x12{left:406.510000px;}
+    @media print{
+    .v0{vertical-align:0.000000pt;}
+    .ls2{letter-spacing:-1.328000pt;}
+    .ls4{letter-spacing:-1.008000pt;}
+    .ls6{letter-spacing:-0.094933pt;}
+    .ls3{letter-spacing:-0.047360pt;}
+    .ls0{letter-spacing:0.000000pt;}
+    .ls1{letter-spacing:0.096000pt;}
+    .ls5{letter-spacing:0.592000pt;}
+    .ws0{word-spacing:0.000000pt;}
+    ._7{margin-left:-13.429973pt;}
+    ._8{margin-left:-11.287253pt;}
+    ._2{margin-left:-7.581013pt;}
+    ._3{margin-left:-5.042133pt;}
+    ._6{margin-left:-3.552640pt;}
+    ._1{margin-left:-1.957760pt;}
+    ._0{width:1.532160pt;}
+    ._9{width:2.959360pt;}
+    ._f{width:4.355840pt;}
+    ._10{width:6.215040pt;}
+    ._11{width:7.719040pt;}
+    ._5{width:11.541760pt;}
+    ._4{width:13.107840pt;}
+    ._d{width:125.573120pt;}
+    ._e{width:159.671680pt;}
+    ._12{width:200.285013pt;}
+    ._b{width:399.320107pt;}
+    ._a{width:618.107520pt;}
+    ._c{width:1234.959787pt;}
+    .fs5{font-size:26.880000pt;}
+    .fs7{font-size:32.000000pt;}
+    .fs2{font-size:48.000000pt;}
+    .fs3{font-size:53.120000pt;}
+    .fs0{font-size:58.880000pt;}
+    .fs6{font-size:74.880000pt;}
+    .fs1{font-size:85.120000pt;}
+    .fs4{font-size:96.000000pt;}
+    .y1{bottom:0.000000pt;}
+    .y13{bottom:3.200000pt;}
+    .y5{bottom:3.840000pt;}
+    .y24{bottom:5.640000pt;}
+    .y3f{bottom:9.440000pt;}
+    .y22{bottom:9.600000pt;}
+    .y1a{bottom:10.560000pt;}
+    .y20{bottom:18.560000pt;}
+    .y12{bottom:20.160000pt;}
+    .y0{bottom:21.333333pt;}
+    .y4{bottom:21.760000pt;}
+    .y3e{bottom:24.640000pt;}
+    .y31{bottom:37.600000pt;}
+    .y11{bottom:39.200000pt;}
+    .y3{bottom:39.680000pt;}
+    .y3d{bottom:40.000000pt;}
+    .y2a{bottom:41.600000pt;}
+    .y19{bottom:41.626667pt;}
+    .y1f{bottom:41.920000pt;}
+    .y30{bottom:46.880000pt;}
+    .y1e{bottom:65.280000pt;}
+    .y5f{bottom:69.600000pt;}
+    .y29{bottom:72.480000pt;}
+    .y18{bottom:72.506667pt;}
+    .y2b{bottom:80.960000pt;}
+    .y5e{bottom:87.200000pt;}
+    .y1d{bottom:88.480000pt;}
+    .y2d{bottom:88.640000pt;}
+    .y28{bottom:95.520000pt;}
+    .y17{bottom:95.546667pt;}
+    .y5d{bottom:110.080000pt;}
+    .y1c{bottom:112.000000pt;}
+    .y2c{bottom:112.026667pt;}
+    .y27{bottom:126.720000pt;}
+    .y16{bottom:126.746667pt;}
+    .y5c{bottom:127.840000pt;}
+    .y5b{bottom:145.440000pt;}
+    .y26{bottom:157.600000pt;}
+    .y15{bottom:157.626667pt;}
+    .y5a{bottom:163.040000pt;}
+    .y59{bottom:180.640000pt;}
+    .y58{bottom:198.426667pt;}
+    .y25{bottom:215.386667pt;}
+    .y57{bottom:216.026667pt;}
+    .y56{bottom:233.626667pt;}
+    .y55{bottom:251.226667pt;}
+    .y54{bottom:268.826667pt;}
+    .y53{bottom:286.586667pt;}
+    .y52{bottom:304.186667pt;}
+    .y51{bottom:321.786667pt;}
+    .y50{bottom:339.386667pt;}
+    .y4f{bottom:356.986667pt;}
+    .y4e{bottom:374.746667pt;}
+    .y4d{bottom:392.346667pt;}
+    .y23{bottom:395.386667pt;}
+    .y4c{bottom:409.986667pt;}
+    .y21{bottom:421.826667pt;}
+    .y4b{bottom:427.586667pt;}
+    .y4a{bottom:445.186667pt;}
+    .y1b{bottom:447.426667pt;}
+    .y49{bottom:462.946667pt;}
+    .y48{bottom:480.546667pt;}
+    .y47{bottom:498.146667pt;}
+    .y46{bottom:515.746667pt;}
+    .y45{bottom:533.346667pt;}
+    .y44{bottom:551.106667pt;}
+    .y43{bottom:568.706667pt;}
+    .y14{bottom:581.826667pt;}
+    .y42{bottom:586.306667pt;}
+    .y41{bottom:603.906667pt;}
+    .y40{bottom:621.533333pt;}
+    .y3c{bottom:633.853333pt;}
+    .y3b{bottom:715.613333pt;}
+    .y3a{bottom:757.053333pt;}
+    .y10{bottom:761.853333pt;}
+    .y39{bottom:780.093333pt;}
+    .y38{bottom:802.973333pt;}
+    .y37{bottom:826.053333pt;}
+    .yf{bottom:849.093333pt;}
+    .ye{bottom:871.973333pt;}
+    .y36{bottom:872.133333pt;}
+    .yd{bottom:895.013333pt;}
+    .yc{bottom:918.053333pt;}
+    .y35{bottom:941.093333pt;}
+    .yb{bottom:941.253333pt;}
+    .ya{bottom:963.973333pt;}
+    .y34{bottom:964.133333pt;}
+    .y9{bottom:987.013333pt;}
+    .y8{bottom:1010.053333pt;}
+    .y33{bottom:1010.213333pt;}
+    .y7{bottom:1032.000000pt;}
+    .y32{bottom:1041.120000pt;}
+    .y6{bottom:1051.680000pt;}
+    .y2f{bottom:1057.600000pt;}
+    .y2e{bottom:1070.666667pt;}
+    .y2{bottom:1071.360000pt;}
+    .he{height:23.680000pt;}
+    .h10{height:24.352000pt;}
+    .hf{height:28.376250pt;}
+    .h15{height:33.781250pt;}
+    .h14{height:42.000000pt;}
+    .h7{height:47.621250pt;}
+    .h4{height:49.898438pt;}
+    .h16{height:52.320000pt;}
+    .ha{height:52.644444pt;}
+    .hb{height:52.990313pt;}
+    .h17{height:54.053750pt;}
+    .h5{height:55.220937pt;}
+    .h6{height:56.076875pt;}
+    .h2{height:58.563750pt;}
+    .h8{height:61.312000pt;}
+    .h11{height:79.048125pt;}
+    .h9{height:86.914062pt;}
+    .h3{height:89.858125pt;}
+    .hd{height:132.320000pt;}
+    .h13{height:132.352000pt;}
+    .h12{height:177.920000pt;}
+    .hc{height:177.946667pt;}
+    .h1{height:1091.333333pt;}
+    .h0{height:1122.240000pt;}
+    .w6{width:153.786667pt;}
+    .w5{width:154.666667pt;}
+    .w7{width:158.106667pt;}
+    .w8{width:177.466667pt;}
+    .w9{width:199.426667pt;}
+    .w3{width:718.240000pt;}
+    .w4{width:720.160000pt;}
+    .w1{width:722.000000pt;}
+    .w2{width:793.919988pt;}
+    .w0{width:793.920000pt;}
+    .x1{left:0.000012pt;}
+    .x8{left:7.200000pt;}
+    .xc{left:16.800000pt;}
+    .xf{left:19.040000pt;}
+    .x7{left:23.040000pt;}
+    .xb{left:29.792000pt;}
+    .x0{left:37.333333pt;}
+    .x6{left:39.360000pt;}
+    .xe{left:47.240000pt;}
+    .xa{left:52.640000pt;}
+    .x11{left:56.826667pt;}
+    .x13{left:69.320000pt;}
+    .x9{left:86.431988pt;}
+    .x5{left:132.671988pt;}
+    .x2{left:192.506655pt;}
+    .xd{left:206.426667pt;}
+    .x10{left:364.546667pt;}
+    .x4{left:393.373322pt;}
+    .x3{left:397.053322pt;}
+    .x14{left:470.493322pt;}
+    .x12{left:542.013333pt;}
+    }
+</style>
+<style type="text/css">
+    .p-relative {
+        position: relative;
+    }
+    .p-absolute {
+        position: absolute;
+    }
+    .text {
+        font-family: sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute !important;
+        bottom: 10px;
+        left: 15px;
+    }
+    .bank {
+        font-size: 38px;
+    }
+    .region {
+        font-size: 45px;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .l100 {
+        left: 100px;
+    }
+    .address, .email, .date, .phone {
+        font-size: 45px;
+        left: 100px;
+    }
+     .is-cccd .id {
+        left: 0; font-size: 44px;
+        }
+        .is-cccd .place {
+               left: 10px;
+    font-size: 40px;
+        }
+        .is-cccd .date {
+            left: 2px;
+    font-size: 40px;
+        }
+    .account-number { font-size: 50px; font-weight: bold; }
+    @media print { 
+        .text { font-size: 50pt; bottom: 29px;}
+        .address, .email, .date, .phone { font-size: 45pt;}
+        .bank { font-size: 40pt;}
+        .region { font-size: 46pt;}
+        
+        .account-number { font-size: 50pt; }
+
+        .is-cccd .id {
+            left: 42px;
+            font-size: 50pt;
+        }
+        .is-cccd .place {
+            font-size: 53pt;
+        }
+        .is-cccd .date {
+            left: 17px;
+            font-size: 50pt;
+        }
+    }
+</style>
+<script>
+/*
+ Copyright 2012 Mozilla Foundation 
+ Copyright 2013 Lu Wang <coolwanglu@gmail.com>
+ Apachine License Version 2.0 
+*/
+(function(){function b(a,b,e,f){var c=(a.className||"").split(/\s+/g);""===c[0]&&c.shift();var d=c.indexOf(b);0>d&&e&&c.push(b);0<=d&&f&&c.splice(d,1);a.className=c.join(" ");return 0<=d}if(!("classList"in document.createElement("div"))){var e={add:function(a){b(this.element,a,!0,!1)},contains:function(a){return b(this.element,a,!1,!1)},remove:function(a){b(this.element,a,!1,!0)},toggle:function(a){b(this.element,a,!0,!0)}};Object.defineProperty(HTMLElement.prototype,"classList",{get:function(){if(this._classList)return this._classList;
+var a=Object.create(e,{element:{value:this,writable:!1,enumerable:!0}});Object.defineProperty(this,"_classList",{value:a,writable:!1,enumerable:!1});return a},enumerable:!0})}})();
+</script>
+<script>
+(function(){/*
+ pdf2htmlEX.js: Core UI functions for pdf2htmlEX 
+ Copyright 2012,2013 Lu Wang <coolwanglu@gmail.com> and other contributors 
+ https://github.com/coolwanglu/pdf2htmlEX/blob/master/share/LICENSE 
+*/
+var pdf2htmlEX=window.pdf2htmlEX=window.pdf2htmlEX||{},CSS_CLASS_NAMES={page_frame:"pf",page_content_box:"pc",page_data:"pi",background_image:"bi",link:"l",input_radio:"ir",__dummy__:"no comma"},DEFAULT_CONFIG={container_id:"page-container",sidebar_id:"sidebar",outline_id:"outline",loading_indicator_cls:"loading-indicator",preload_pages:3,render_timeout:100,scale_step:0.9,key_handler:!0,hashchange_handler:!0,view_history_handler:!0,__dummy__:"no comma"},EPS=1E-6;
+function invert(a){var b=a[0]*a[3]-a[1]*a[2];return[a[3]/b,-a[1]/b,-a[2]/b,a[0]/b,(a[2]*a[5]-a[3]*a[4])/b,(a[1]*a[4]-a[0]*a[5])/b]}function transform(a,b){return[a[0]*b[0]+a[2]*b[1]+a[4],a[1]*b[0]+a[3]*b[1]+a[5]]}function get_page_number(a){return parseInt(a.getAttribute("data-page-no"),16)}function disable_dragstart(a){for(var b=0,c=a.length;b<c;++b)a[b].addEventListener("dragstart",function(){return!1},!1)}
+function clone_and_extend_objs(a){for(var b={},c=0,e=arguments.length;c<e;++c){var h=arguments[c],d;for(d in h)h.hasOwnProperty(d)&&(b[d]=h[d])}return b}
+function Page(a){if(a){this.shown=this.loaded=!1;this.page=a;this.num=get_page_number(a);this.original_height=a.clientHeight;this.original_width=a.clientWidth;var b=a.getElementsByClassName(CSS_CLASS_NAMES.page_content_box)[0];b&&(this.content_box=b,this.original_scale=this.cur_scale=this.original_height/b.clientHeight,this.page_data=JSON.parse(a.getElementsByClassName(CSS_CLASS_NAMES.page_data)[0].getAttribute("data-data")),this.ctm=this.page_data.ctm,this.ictm=invert(this.ctm),this.loaded=!0)}}
+Page.prototype={hide:function(){this.loaded&&this.shown&&(this.content_box.classList.remove("opened"),this.shown=!1)},show:function(){this.loaded&&!this.shown&&(this.content_box.classList.add("opened"),this.shown=!0)},rescale:function(a){this.cur_scale=0===a?this.original_scale:a;this.loaded&&(a=this.content_box.style,a.msTransform=a.webkitTransform=a.transform="scale("+this.cur_scale.toFixed(3)+")");a=this.page.style;a.height=this.original_height*this.cur_scale+"px";a.width=this.original_width*this.cur_scale+
+"px"},view_position:function(){var a=this.page,b=a.parentNode;return[b.scrollLeft-a.offsetLeft-a.clientLeft,b.scrollTop-a.offsetTop-a.clientTop]},height:function(){return this.page.clientHeight},width:function(){return this.page.clientWidth}};function Viewer(a){this.config=clone_and_extend_objs(DEFAULT_CONFIG,0<arguments.length?a:{});this.pages_loading=[];this.init_before_loading_content();var b=this;document.addEventListener("DOMContentLoaded",function(){b.init_after_loading_content()},!1)}
+Viewer.prototype={scale:1,cur_page_idx:0,first_page_idx:0,init_before_loading_content:function(){this.pre_hide_pages()},initialize_radio_button:function(){for(var a=document.getElementsByClassName(CSS_CLASS_NAMES.input_radio),b=0;b<a.length;b++)a[b].addEventListener("click",function(){this.classList.toggle("checked")})},init_after_loading_content:function(){this.sidebar=document.getElementById(this.config.sidebar_id);this.outline=document.getElementById(this.config.outline_id);this.container=document.getElementById(this.config.container_id);
+this.loading_indicator=document.getElementsByClassName(this.config.loading_indicator_cls)[0];for(var a=!0,b=this.outline.childNodes,c=0,e=b.length;c<e;++c)if("ul"===b[c].nodeName.toLowerCase()){a=!1;break}a||this.sidebar.classList.add("opened");this.find_pages();if(0!=this.pages.length){disable_dragstart(document.getElementsByClassName(CSS_CLASS_NAMES.background_image));this.config.key_handler&&this.register_key_handler();var h=this;this.config.hashchange_handler&&window.addEventListener("hashchange",
+function(a){h.navigate_to_dest(document.location.hash.substring(1))},!1);this.config.view_history_handler&&window.addEventListener("popstate",function(a){a.state&&h.navigate_to_dest(a.state)},!1);this.container.addEventListener("scroll",function(){h.update_page_idx();h.schedule_render(!0)},!1);[this.container,this.outline].forEach(function(a){a.addEventListener("click",h.link_handler.bind(h),!1)});this.initialize_radio_button();this.render()}},find_pages:function(){for(var a=[],b={},c=this.container.childNodes,
+e=0,h=c.length;e<h;++e){var d=c[e];d.nodeType===Node.ELEMENT_NODE&&d.classList.contains(CSS_CLASS_NAMES.page_frame)&&(d=new Page(d),a.push(d),b[d.num]=a.length-1)}this.pages=a;this.page_map=b},load_page:function(a,b,c){var e=this.pages;if(!(a>=e.length||(e=e[a],e.loaded||this.pages_loading[a]))){var e=e.page,h=e.getAttribute("data-page-url");if(h){this.pages_loading[a]=!0;var d=e.getElementsByClassName(this.config.loading_indicator_cls)[0];"undefined"===typeof d&&(d=this.loading_indicator.cloneNode(!0),
+d.classList.add("active"),e.appendChild(d));var f=this,g=new XMLHttpRequest;g.open("GET",h,!0);g.onload=function(){if(200===g.status||0===g.status){var b=document.createElement("div");b.innerHTML=g.responseText;for(var d=null,b=b.childNodes,e=0,h=b.length;e<h;++e){var p=b[e];if(p.nodeType===Node.ELEMENT_NODE&&p.classList.contains(CSS_CLASS_NAMES.page_frame)){d=p;break}}b=f.pages[a];f.container.replaceChild(d,b.page);b=new Page(d);f.pages[a]=b;b.hide();b.rescale(f.scale);disable_dragstart(d.getElementsByClassName(CSS_CLASS_NAMES.background_image));
+f.schedule_render(!1);c&&c(b)}delete f.pages_loading[a]};g.send(null)}void 0===b&&(b=this.config.preload_pages);0<--b&&(f=this,setTimeout(function(){f.load_page(a+1,b)},0))}},pre_hide_pages:function(){var a="@media screen{."+CSS_CLASS_NAMES.page_content_box+"{display:none;}}",b=document.createElement("style");b.styleSheet?b.styleSheet.cssText=a:b.appendChild(document.createTextNode(a));document.head.appendChild(b)},render:function(){for(var a=this.container,b=a.scrollTop,c=a.clientHeight,a=b-c,b=
+b+c+c,c=this.pages,e=0,h=c.length;e<h;++e){var d=c[e],f=d.page,g=f.offsetTop+f.clientTop,f=g+f.clientHeight;g<=b&&f>=a?d.loaded?d.show():this.load_page(e):d.hide()}},update_page_idx:function(){var a=this.pages,b=a.length;if(!(2>b)){for(var c=this.container,e=c.scrollTop,c=e+c.clientHeight,h=-1,d=b,f=d-h;1<f;){var g=h+Math.floor(f/2),f=a[g].page;f.offsetTop+f.clientTop+f.clientHeight>=e?d=g:h=g;f=d-h}this.first_page_idx=d;for(var g=h=this.cur_page_idx,k=0;d<b;++d){var f=a[d].page,l=f.offsetTop+f.clientTop,
+f=f.clientHeight;if(l>c)break;f=(Math.min(c,l+f)-Math.max(e,l))/f;if(d===h&&Math.abs(f-1)<=EPS){g=h;break}f>k&&(k=f,g=d)}this.cur_page_idx=g}},schedule_render:function(a){if(void 0!==this.render_timer){if(!a)return;clearTimeout(this.render_timer)}var b=this;this.render_timer=setTimeout(function(){delete b.render_timer;b.render()},this.config.render_timeout)},register_key_handler:function(){var a=this;window.addEventListener("DOMMouseScroll",function(b){if(b.ctrlKey){b.preventDefault();var c=a.container,
+e=c.getBoundingClientRect(),c=[b.clientX-e.left-c.clientLeft,b.clientY-e.top-c.clientTop];a.rescale(Math.pow(a.config.scale_step,b.detail),!0,c)}},!1);window.addEventListener("keydown",function(b){var c=!1,e=b.ctrlKey||b.metaKey,h=b.altKey;switch(b.keyCode){case 61:case 107:case 187:e&&(a.rescale(1/a.config.scale_step,!0),c=!0);break;case 173:case 109:case 189:e&&(a.rescale(a.config.scale_step,!0),c=!0);break;case 48:e&&(a.rescale(0,!1),c=!0);break;case 33:h?a.scroll_to(a.cur_page_idx-1):a.container.scrollTop-=
+a.container.clientHeight;c=!0;break;case 34:h?a.scroll_to(a.cur_page_idx+1):a.container.scrollTop+=a.container.clientHeight;c=!0;break;case 35:a.container.scrollTop=a.container.scrollHeight;c=!0;break;case 36:a.container.scrollTop=0,c=!0}c&&b.preventDefault()},!1)},rescale:function(a,b,c){var e=this.scale;this.scale=a=0===a?1:b?e*a:a;c||(c=[0,0]);b=this.container;c[0]+=b.scrollLeft;c[1]+=b.scrollTop;for(var h=this.pages,d=h.length,f=this.first_page_idx;f<d;++f){var g=h[f].page;if(g.offsetTop+g.clientTop>=
+c[1])break}g=f-1;0>g&&(g=0);var g=h[g].page,k=g.clientWidth,f=g.clientHeight,l=g.offsetLeft+g.clientLeft,m=c[0]-l;0>m?m=0:m>k&&(m=k);k=g.offsetTop+g.clientTop;c=c[1]-k;0>c?c=0:c>f&&(c=f);for(f=0;f<d;++f)h[f].rescale(a);b.scrollLeft+=m/e*a+g.offsetLeft+g.clientLeft-m-l;b.scrollTop+=c/e*a+g.offsetTop+g.clientTop-c-k;this.schedule_render(!0)},fit_width:function(){var a=this.cur_page_idx;this.rescale(this.container.clientWidth/this.pages[a].width(),!0);this.scroll_to(a)},fit_height:function(){var a=this.cur_page_idx;
+this.rescale(this.container.clientHeight/this.pages[a].height(),!0);this.scroll_to(a)},get_containing_page:function(a){for(;a;){if(a.nodeType===Node.ELEMENT_NODE&&a.classList.contains(CSS_CLASS_NAMES.page_frame)){a=get_page_number(a);var b=this.page_map;return a in b?this.pages[b[a]]:null}a=a.parentNode}return null},link_handler:function(a){var b=a.target,c=b.getAttribute("data-dest-detail");if(c){if(this.config.view_history_handler)try{var e=this.get_current_view_hash();window.history.replaceState(e,
+"","#"+e);window.history.pushState(c,"","#"+c)}catch(h){}this.navigate_to_dest(c,this.get_containing_page(b));a.preventDefault()}},navigate_to_dest:function(a,b){try{var c=JSON.parse(a)}catch(e){return}if(c instanceof Array){var h=c[0],d=this.page_map;if(h in d){for(var f=d[h],h=this.pages[f],d=2,g=c.length;d<g;++d){var k=c[d];if(null!==k&&"number"!==typeof k)return}for(;6>c.length;)c.push(null);var g=b||this.pages[this.cur_page_idx],d=g.view_position(),d=transform(g.ictm,[d[0],g.height()-d[1]]),
+g=this.scale,l=[0,0],m=!0,k=!1,n=this.scale;switch(c[1]){case "XYZ":l=[null===c[2]?d[0]:c[2]*n,null===c[3]?d[1]:c[3]*n];g=c[4];if(null===g||0===g)g=this.scale;k=!0;break;case "Fit":case "FitB":l=[0,0];k=!0;break;case "FitH":case "FitBH":l=[0,null===c[2]?d[1]:c[2]*n];k=!0;break;case "FitV":case "FitBV":l=[null===c[2]?d[0]:c[2]*n,0];k=!0;break;case "FitR":l=[c[2]*n,c[5]*n],m=!1,k=!0}if(k){this.rescale(g,!1);var p=this,c=function(a){l=transform(a.ctm,l);m&&(l[1]=a.height()-l[1]);p.scroll_to(f,l)};h.loaded?
+c(h):(this.load_page(f,void 0,c),this.scroll_to(f))}}}},scroll_to:function(a,b){var c=this.pages;if(!(0>a||a>=c.length)){c=c[a].view_position();void 0===b&&(b=[0,0]);var e=this.container;e.scrollLeft+=b[0]-c[0];e.scrollTop+=b[1]-c[1]}},get_current_view_hash:function(){var a=[],b=this.pages[this.cur_page_idx];a.push(b.num);a.push("XYZ");var c=b.view_position(),c=transform(b.ictm,[c[0],b.height()-c[1]]);a.push(c[0]/this.scale);a.push(c[1]/this.scale);a.push(this.scale);return JSON.stringify(a)}};
+pdf2htmlEX.Viewer=Viewer;})();
+</script>
+<script>
+try{
+pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
+}catch(e){}
+</script>
+</head>
+<body>
+<div id="sidebar">
+<div id="outline">
+</div>
+</div>
+<div id="page-container">
+<div id="pf1" class="pf w0 h0" data-page-no="1"><div class="pc pc1 w0 h0"><img class="bi x0 y0 w1 h1" alt="" src="{{host}}/assets/imgs/3/1.png"/><div class="c x1 y1 w2 h0"><div class="t m0 x2 h2 y2 ff1 fs0 fc0 sc0 ls0 ws0"> </div><div class="t m0 x3 h2 y3 ff1 fs0 fc0 sc0 ls0 ws0"> </div><div class="t m0 x4 h2 y4 ff1 fs0 fc0 sc0 ls0 ws0">1 </div><div class="t m0 x0 h2 y5 ff1 fs0 fc0 sc0 ls0 ws0"> </div><div class="t m0 x5 h3 y6 ff2 fs1 fc0 sc0 ls0 ws0">GIẤY Đ<span class="_ _0"></span>Ă<span class="_ _1"></span>NG KÝ <span class="_ _0"></span>TÀI KHOẢN<span class="_ _0"></span><span class="ff3"> </span>NHẬN CHUYỂN KH<span class="_ _0"></span>OẢN<span class="ff3"> </span></div><div class="t m0 x0 h4 y7 ff4 fs2 fc0 sc0 ls1 ws0">                     <span class="_ _1"></span>                   <span class="_ _1"></span>    <span class="ls0"> </span></div><div class="t m0 x0 h5 y8 ff5 fs3 fc0 sc0 ls0 ws0">Că<span class="_ _1"></span>n<span class="_ _1"></span> cứ<span class="_ _1"></span> H<span class="_ _1"></span>ợp<span class="_ _1"></span> đ<span class="_ _1"></span>ồn<span class="_ _1"></span>g<span class="ff4"> </span>d<span class="_ _1"></span>ị<span class="_ _1"></span>ch<span class="_ _1"></span> v<span class="_ _1"></span>ụ <span class="_ _1"></span>gi<span class="_ _1"></span>ao<span class="_ _1"></span> d<span class="_ _1"></span>ị<span class="_ _1"></span>ch <span class="_ _1"></span>tr<span class="_ _1"></span>ực<span class="_ _1"></span> t<span class="_ _1"></span>uy<span class="_ _1"></span>ến<span class="_ _1"></span> s<span class="_ _1"></span>ố <span class="ff4"> <span class="_ _2"></span><span class="ls2">.............................<span class="ls0"> <span class="_ _3"></span> /<span class="_ _1"></span>HD<span class="_ _1"></span>TT<span class="_ _1"></span><span class="ff5">gi<span class="_ _1"></span>ữa<span class="_ _1"></span> <span class="_ _4"> </span>tô<span class="_ _1"></span>i<span class="_ _1"></span>  /<span class="_ _1"></span>ch<span class="_ _1"></span>ún<span class="_ _1"></span>g <span class="_ _5"> </span>tô<span class="_ _1"></span>i <span class="_ _5"> </span>và<span class="_ _1"></span>  C<span class="_ _1"></span>ôn<span class="_ _1"></span>g <span class="_ _5"> </span>ty<span class="_ _1"></span> <span class="_ _4"> </span>Cổ<span class="_ _1"></span> <span class="_ _4"> </span>ph<span class="_ _1"></span>ần<span class="_ _1"></span> <span class="_ _4"> </span>Ch<span class="_ _1"></span>ứn<span class="_ _1"></span>g </span></span></span></span></div><div class="t m0 x0 h5 y9 ff5 fs3 fc0 sc0 ls0 ws0">kh<span class="_ _1"></span>oá<span class="_ _1"></span>n <span class="_ _1"></span>Bả<span class="_ _1"></span>n <span class="_ _1"></span>Vi<span class="_ _1"></span>ệt<span class="_ _1"></span> (<span class="_ _1"></span>VC<span class="_ _1"></span>SC<span class="_ _1"></span>),<span class="_ _1"></span> h<span class="_ _1"></span>ôm <span class="_ _1"></span>nay<span class="_ _6"></span> n<span class="_ _1"></span>gày<span class="_ _6"></span><span class="ff4"> <span class="_ _2"></span><span class="ls2">...............................................<span class="ls0"> <span class="_ _3"></span>t<span class="ff5">ại<span class="_ _1"></span> V<span class="_ _1"></span>CS<span class="_ _1"></span>C,<span class="_ _1"></span><span class="ff4"> t<span class="_ _1"></span>ôi<span class="_ _1"></span> /<span class="_ _6"></span>chú<span class="_ _1"></span>ng <span class="_ _6"></span>tôi<span class="_ _1"></span> l<span class="_ _1"></span>à: <span class="_ _1"></span><span class="ls3">..................................................<span class="ls0"> <span class="_ _7"></span> </span></span></span></span></span></span></span></div><div class="t m0 x0 h5 ya ff4 fs3 fc0 sc0 ls0 ws0"> <span class="_ _2"></span><span class="ls3">.........................................<span class="_ _0"></span>..<span class="ls0"> <span class="_ _6"></span> <span class="_ _8"></span><span class="ls3"><span class="text uppercase">{{user.name}}</span>.....................................................................................................................................................<span class="ls0"> <span class="_ _7"></span> </span></span></span></span></div><div class="t m0 x0 h6 yb ff4 fs3 fc0 sc0 ls0 ws0">l<span class="ff5">à<span class="_ _6"></span> ch<span class="_ _1"></span>ủ <span class="_ _1"></span>tà<span class="_ _1"></span>i <span class="_ _6"></span>khoả<span class="_ _1"></span>n <span class="_ _1"></span>GD<span class="_ _1"></span>CK<span class="_ _1"></span> s<span class="_ _1"></span>ố <span class="_ _1"></span><span><span class="account-number">{{user.account_number}}</span></span></span></span></div>
+
+{{#if (isCMND user)}}
+
+<div class="t m0 x0 h5 yc ff5 fs3 fc0 sc0 ls0 ws0">Số ĐKSH (*)<span class="ff4">:<span class="_ _0"></span> <span class="_ _8"></span><span class="ls3"><span style="left: 200px" class="text l70 f45 account-number">{{user.id_number}}</span>.....................................................................<span class="ls0"> <span class="_ _3"></span><span class="ff5">cấp ng<span class="_ _0"></span>ày:<span class="ff4"> <span class="_ _3"></span><span class="ls3"><span class="text l100 f45">{{user.id_issue_date}}</span>..................................<span class="ls0"> <span class="_ _8"></span><span class="ff5">tại:<span class="ff4"> <span class="_ _1"></span><span class="ls3"><span class="text f45 l100">{{user.id_issue_place}}</span>................................................<span class="ls0"> <span class="_ _7"></span> </span></span></span></span></span></span></span></span></span></span></span></div>
+
+{{else}}
+
+<div class="t m0 x0 h5 yc ff5 fs3 fc0 sc0 ls0 ws0 is-cccd">Số ĐKSH (*)<span class="ff4">:<span class="_ _0"></span> <span class="_ _8"></span><span class="ls3"><span class="text l70 f45 id">{{user.id_number}}</span>............................<span class="ls0"> <span class="_ _3"></span><span class="ff5">cấp ng<span class="_ _0"></span>ày:<span class="ff4"> <span class="_ _3"></span><span class="ls3"><span class="text l100 f45 date">{{user.id_issue_date}}</span>....................<span class="ls0"> <span class="_ _8"></span><span class="ff5">tại:<span class="ff4"> <span class="_ _1"></span><span class="ls3"><span class="text f45 l100 place">{{user.id_issue_place}}</span>......................................................................................................<span class="ls0"> <span class="_ _7"></span> </span></span></span></span></span></span></span></span></span></span></span></div>
+
+{{/if}}
+<div class="t m0 x0 h7 yd ff5 fs3 fc0 sc0 ls0 ws0">Nh<span class="_ _1"></span>ằ<span class="_ _1"></span>m <span class="_ _9"></span>ph<span class="_ _1"></span>ụ<span class="_ _1"></span>c <span class="_ _9"></span>vụ<span class="_ _1"></span> <span class="_ _9"></span>ch<span class="_ _1"></span>o <span class="_ _0"></span>nhu<span class="_ _1"></span> <span class="_ _0"></span>cầu<span class="_ _1"></span> <span class="_ _9"></span>gi<span class="_ _1"></span>ao<span class="_ _1"></span> <span class="_ _9"></span>dị<span class="_ _1"></span>ch <span class="_ _0"></span>ch<span class="_ _6"></span>ứng<span class="_ _1"></span> <span class="_ _9"></span>kho<span class="_ _1"></span>án<span class="_ _1"></span> <span class="_ _0"></span>một các<span class="_ _1"></span>h <span class="_ _0"></span>nha<span class="_ _1"></span>nh<span class="_ _1"></span> <span class="_ _0"></span>chón<span class="_ _1"></span>g <span class="_ _0"></span>và<span class="_ _1"></span> <span class="_ _9"></span>th<span class="_ _1"></span>uận<span class="_ _6"></span> <span class="_ _9"></span>tiệ<span class="_ _1"></span>n <span class="_ _0"></span>nhấ<span class="_ _1"></span>t.<span class="_ _1"></span> <span class="_ _0"></span>Tôi<span class="_ _1"></span>/ <span class="_ _0"></span>Chú<span class="_ _6"></span>ng <span class="_ _0"></span>tôi<span class="_ _6"></span>, <span class="_ _9"></span>ch<span class="_ _1"></span>ủ <span class="_ _0"></span>tài<span class="_ _1"></span> <span class="_ _0"></span>kho<span class="_ _1"></span>ản<span class="_ _1"></span> </div><div class="t m0 x0 h7 ye ff5 fs3 fc0 sc0 ls0 ws0">gi<span class="_ _6"></span>ao <span class="_ _0"></span>dị<span class="_ _1"></span>ch <span class="_ _0"></span>ch<span class="_ _1"></span>ứng<span class="_ _1"></span> <span class="_ _0"></span>kho<span class="_ _1"></span>án <span class="_ _0"></span>nê<span class="_ _1"></span>u <span class="_ _0"></span>trê<span class="_ _1"></span>n <span class="_ _0"></span>đề<span class="_ _1"></span> <span class="_ _9"></span>ng<span class="_ _1"></span>hị sử <span class="_ _9"></span>dụ<span class="_ _1"></span>ng<span class="_ _1"></span> <span class="_ _9"></span>dị<span class="_ _6"></span>ch <span class="_ _9"></span>vụ<span class="_ _1"></span> <span class="_ _9"></span>ch<span class="_ _1"></span>uy<span class="_ _1"></span>ển<span class="_ _1"></span> <span class="_ _0"></span>khoả<span class="_ _1"></span>n <span class="_ _0"></span>tr<span class="_ _1"></span>ực <span class="_ _0"></span>tuy<span class="_ _6"></span>ế<span class="_ _0"></span>n <span class="_ _0"></span>củ<span class="_ _1"></span>a <span class="_ _0"></span>Côn<span class="_ _1"></span>g <span class="_ _0"></span>ty <span class="_ _0"></span>Cổ <span class="_ _0"></span>ph<span class="_ _1"></span>ần <span class="_ _0"></span>Ch<span class="_ _1"></span>ứng<span class="_ _1"></span> <span class="_ _0"></span>kho<span class="_ _1"></span>án<span class="_ _1"></span> <span class="_ _9"></span>Bản<span class="_ _6"></span> </div><div class="t m0 x0 h5 yf ff5 fs3 fc0 sc0 ls0 ws0">Vi<span class="_ _6"></span>ệt.<span class="_ _1"></span> Bằ<span class="_ _6"></span>ng <span class="_ _1"></span>vă<span class="_ _1"></span>n <span class="_ _1"></span>bả<span class="_ _1"></span>n <span class="_ _1"></span>này<span class="_ _6"></span> tô<span class="_ _1"></span>i/<span class="_ _1"></span> c<span class="_ _1"></span>hú<span class="_ _1"></span>ng<span class="_ _1"></span> t<span class="_ _1"></span>ôi<span class="_ _1"></span> đ<span class="_ _1"></span>ăn<span class="_ _1"></span>g <span class="_ _1"></span>ký<span class="_ _1"></span>/b<span class="_ _1"></span>ổ <span class="_ _6"></span>sung<span class="_ _1"></span>/ <span class="_ _1"></span>hủy<span class="_ _6"></span> đă<span class="_ _6"></span>ng <span class="_ _6"></span>k<span class="_ _0"></span>ý<span class="_ _1"></span> v<span class="_ _1"></span>ới<span class="_ _1"></span> VC<span class="_ _1"></span>S<span class="_ _1"></span>C <span class="_ _1"></span>cá<span class="_ _1"></span>c <span class="_ _1"></span>tài<span class="_ _1"></span> k<span class="_ _1"></span>ho<span class="_ _1"></span>ản<span class="_ _1"></span> n<span class="_ _1"></span>hậ<span class="_ _1"></span>n <span class="_ _6"></span>chuy<span class="_ _6"></span>ển <span class="_ _1"></span>kho<span class="_ _6"></span>ản <span class="_ _1"></span>nh<span class="_ _6"></span>ư sa<span class="_ _6"></span>u:<span class="ff4"> </span></div></div><div class="c x6 y10 w3 h8"><div class="t m0 x7 h9 y11 ff2 fs4 fc1 sc0 ls0 ws0">□<span class="ff3 fs0 ls4">  </span><span class="fs0">ĐĂ<span class="_ _3"></span>NG<span class="_ _1"></span> K<span class="_ _1"></span>Ý <span class="_ _1"></span>MỚ<span class="_ _6"></span>I <span class="ff3"> <span class="_ _a"> </span></span><span class="fs4">□</span><span class="ff3 ls4">  </span>ĐĂ<span class="_ _3"></span>NG<span class="_ _1"></span> K<span class="_ _1"></span>Ý <span class="_ _1"></span>B<span class="_ _1"></span>Ổ <span class="_ _1"></span>SU<span class="_ _1"></span>N<span class="_ _1"></span>G<span class="ff3"> </span></span></div><div class="t m0 x7 ha y12 ff6 fs0 fc1 sc0 ls0 ws0">L<span class="_ _1"></span>ưu<span class="_ _6"></span> <span class="_ _0"></span>ý k<span class="_ _1"></span>hi<span class="_ _1"></span> đă<span class="_ _1"></span>n<span class="_ _1"></span>g ký<span class="_ _6"></span> bổ s<span class="_ _1"></span>un<span class="_ _1"></span>g:<span class="_ _1"></span> VC<span class="_ _1"></span>S<span class="_ _1"></span>C c<span class="_ _1"></span>hỉ<span class="_ _1"></span> cà<span class="_ _1"></span>i<span class="_ _1"></span> <span class="_ _0"></span>đ<span class="_ _1"></span>ặt<span class="_ _1"></span> tố<span class="_ _1"></span>i đ<span class="_ _1"></span>a 2<span class="_ _1"></span> tài<span class="_ _6"></span> kho<span class="_ _6"></span>ản<span class="_ _1"></span> <span class="_ _0"></span>n<span class="_ _1"></span>hận<span class="_ _1"></span> ch<span class="_ _1"></span>uy<span class="_ _6"></span>ển k<span class="_ _1"></span>ho<span class="_ _6"></span>ản n<span class="_ _1"></span>ên<span class="_ _1"></span> sẽ<span class="_ _6"></span> mặc<span class="_ _1"></span> đị<span class="_ _1"></span>n<span class="_ _1"></span>h hủ<span class="_ _1"></span>y<span class="_ _1"></span> </div><div class="t m0 x7 hb y13 ff6 fs0 fc1 sc0 ls0 ws0">cá<span class="_ _6"></span>c <span class="_ _1"></span>tà<span class="_ _1"></span>i<span class="_ _1"></span> kh<span class="_ _6"></span>oản<span class="_ _6"></span> đă<span class="_ _6"></span>ng <span class="_ _1"></span>k<span class="_ _1"></span>ý <span class="_ _1"></span>tr<span class="_ _1"></span>ướ<span class="_ _1"></span>c <span class="_ _1"></span>đ<span class="_ _1"></span>ây<span class="_ _1"></span> n<span class="_ _6"></span>ếu<span class="_ _1"></span> K<span class="_ _1"></span>H <span class="_ _1"></span>đă<span class="_ _6"></span>ng<span class="_ _1"></span> k<span class="_ _1"></span>ý <span class="_ _1"></span>nh<span class="_ _6"></span>iều<span class="_ _6"></span> hơ<span class="_ _6"></span>n 2<span class="_ _6"></span> tà<span class="_ _1"></span>i <span class="_ _1"></span>k<span class="_ _1"></span>ho<span class="_ _1"></span>ản<span class="_ _6"></span> .<span class="ff7 fs3"> </span></div></div><div class="c x6 y14 w3 hc"><div class="t m0 x7 h6 y15 ff2 fs3 fc0 sc0 ls0 ws0">Ch<span class="_ _6"></span>uyể<span class="_ _1"></span>n k<span class="_ _6"></span>hoả<span class="_ _1"></span>n <span class="_ _1"></span>qu<span class="_ _1"></span>a <span class="_ _6"></span>tài <span class="_ _1"></span>kh<span class="_ _6"></span>oản<span class="_ _1"></span> t<span class="_ _1"></span>ại<span class="_ _1"></span> n<span class="_ _1"></span>gâ<span class="_ _1"></span>n <span class="_ _1"></span>hà<span class="_ _1"></span>ng<span class="ff3"> </span></div><div class="t m0 x7 h5 y16 ff2 fs3 fc0 sc0 ls0 ws0">1.Số TK ngân hàng 1:<span class="_ _0"></span><span class="ff4">  <span class="ls3"><span class="text l100">{{user.bank_account}}</span>..................................................</span> <span class="_ _3"></span> <span class="ff5">Tên chủ TK:</span> <span class="_ _3"></span><span class="ls3"><span class="text uppercase l100">{{user.bank_owner}}</span>.........................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></div><div class="t m0 x7 h5 y17 ff5 fs3 fc0 sc0 ls0 ws0">tại ngân hàng: <span class="ff4"> <span class="_ _7"></span><span class="ls3"><span class="text bank l100">{{user.bank_brand}}</span>................................<span class="_ _0"></span>....................................................<span class="ls0">. <span class="_ _3"></span> Chi nhánh:  <span class="_ _1"></span><span class="ls3"><span class="text region l100">{{user.bank_brand_region}}</span>......................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></span></span></div><div class="t m0 x7 h5 y18 ff4 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x7 h5 y19 ff2 fs3 fc0 sc0 ls0 ws0">2.Số TK ngân hàng 2:<span class="_ _0"></span><span class="ff4">  <span class="ls3">..................................................</span> <span class="_ _3"></span> <span class="ff5">Tên chủ TK:</span> <span class="_ _3"></span><span class="ls3">.........................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></div><div class="t m0 x7 h5 y1a ff5 fs3 fc0 sc0 ls0 ws0">tại n<span class="ff4">gân hàng:  <span class="_ _7"></span><span class="ls3">................................<span class="_ _0"></span>....................................................<span class="ls0">. <span class="_ _3"></span> Chi nhánh:  <span class="_ _1"></span><span class="ls3">......................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></span></span></div></div><div class="c x6 y1b w3 hd"><div class="t m0 x7 h6 y1c ff2 fs3 fc0 sc0 ls0 ws0">Chuyển khoản qua tài kh<span class="_ _0"></span>oản khác tại VCSC<span class="_ _0"></span><span class="ff3"> </span></div><div class="t m0 x7 h6 y1d ff5 fs3 fc0 sc0 ls0 ws0">Tên chủ TK: Công t<span class="_ _0"></span>y CP Chứng k<span class="_ _0"></span>hoán Bản Việt {{#if (isHN user)}}- Chi nhánh Hà Nội{{/if}}<span class="_ _0"></span><span class="ff3"> </span></div><div class="t m0 x7 h5 y1e ff5 fs3 fc0 sc0 ls0 ws0">Số tài khoản: <span class="_ _0"></span>{{#if (isHN user)}}12210000447304{{else}}13510000535586{{/if}}<span class="_ _0"></span><span class="ff4"> <span class="_ _b"> </span></span>Tại ngân hàng: <span class="ff8">B<span class="_ _0"></span>IDV<span class="ff4"> </span></span>chi nhánh {{#if (isHN user)}}Hà Thàn{{else}}Gia Địn{{/if}}<span class="_ _0"></span>h<span class="ff4"> </span></div><div class="t m0 x7 h5 y1f ff5 fs3 fc0 sc0 ls0 ws0">Nội dung: 1. Nộp tiền <span class="_ _0"></span>vào TK 068C<span class="_ _0"></span><span class="ff4"> <span class="_ _6"></span><span class="ls3">.....................<span class="ls0"> <span class="_ _2"></span><span class="ff5">T<span class="_ _0"></span>ên chủ TK: <span class="ff4"> <span class="_ _6"></span><span class="ls3">....................................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></span></span></span></span></div><div class="t m0 x7 h5 y20 ff4 fs3 fc0 sc0 ls3 ws0">               <span class="ls5">  <span class="ff5 ls0">2. Nộp tiền <span class="_ _0"></span><span class="ff4">vào TK 068C<span class="_ _0"></span> <span class="_ _7"></span><span class="ls3">.....................<span class="ls0"> <span class="_ _3"></span><span class="ff5">Tên chủ TK: <span class="ff4"> <span class="_ _3"></span><span class="ls3">....................................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></span></span></span></span></span></span></div></div><div class="c x0 y21 w4 he"><div class="t m0 x8 hf y22 ff3 fs5 fc0 sc0 ls0 ws0"> </div></div><div class="c x6 y23 w3 h10"><div class="t m0 x7 h11 y24 ff2 fs6 fc1 sc0 ls0 ws0">□<span class="ff3"> <span class="_ _1"></span> <span class="ff2">H<span class="_ _6"></span>ỦY<span class="_ _1"></span> ĐĂ<span class="_ _3"></span>NG <span class="_ _1"></span>KÝ<span class="_ _1"></span><span class="ff3 fc0"> </span></span></span></div></div><div class="c x6 y25 w3 h12"><div class="t m0 x7 h6 y26 ff2 fs3 fc0 sc0 ls0 ws0">Ch<span class="_ _6"></span>uyể<span class="_ _1"></span>n k<span class="_ _6"></span>hoả<span class="_ _1"></span>n <span class="_ _1"></span>qua<span class="_ _6"></span> tà<span class="_ _1"></span>i <span class="_ _1"></span>kh<span class="_ _6"></span>oản<span class="_ _1"></span> t<span class="_ _1"></span>ại<span class="_ _1"></span> n<span class="_ _1"></span>gân<span class="_ _6"></span> hà<span class="_ _1"></span>ng<span class="ff3"> </span></div><div class="t m0 x7 h5 y27 ff2 fs3 fc0 sc0 ls0 ws0">1.Số TK ngân hàng 1:<span class="_ _0"></span><span class="ff4">  <span class="ls3">.......................................</span> <span class="_ _2"></span> <span class="ff5">Tên chủ TK:</span>  <span class="_ _6"></span><span class="ls3">...................................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></div><div class="t m0 x7 h5 y28 ff5 fs3 fc0 sc0 ls0 ws0">tại ngân hàng: <span class="ff4"> <span class="ls3">.....................................................</span> <span class="_ _3"></span> Chi nhánh:  <span class="ls3">.....................................................................................</span> <span class="_ _7"></span> </span></div><div class="t m0 x7 h5 y29 ff4 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x7 h5 y2a ff2 fs3 fc0 sc0 ls0 ws0">2.Số TK ngân hàng 2:<span class="_ _0"></span><span class="ff4">  <span class="ls3">.......................................</span> <span class="_ _2"></span> <span class="ff5">Tên chủ TK:</span>  <span class="_ _6"></span><span class="ls3">...................................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></div><div class="t m0 x7 h5 y1a ff5 fs3 fc0 sc0 ls0 ws0">tại ngân hàng: <span class="ff4"> <span class="ls3">.....................................................</span> <span class="_ _3"></span> Chi nhánh:  <span class="ls3">.....................................................................................</span> <span class="_ _7"></span> </span></div></div><div class="c x6 y2b w3 h13"><div class="t m0 x7 h6 y2c ff2 fs3 fc0 sc0 ls0 ws0">Chuyển khoản qua tài kh<span class="_ _0"></span>oản khác tạ<span class="_ _0"></span><span class="ff3">i VCSC </span></div><div class="t m0 x7 h6 y2d ff5 fs3 fc0 sc0 ls0 ws0">Tên chủ TK<span class="_ _0"></span>: Công ty CP Chứ<span class="_ _0"></span>ng khoán Bản Việt {{#if (isHN user)}}- Chi nhánh Hà Nội{{/if}}<span class="_ _0"></span><span class="ff3"> </span></div><div class="t m0 x7 h5 y1e ff5 fs3 fc0 sc0 ls0 ws0">Số tài khoản<span class="ff4">: <span class="_ _0"></span>{{#if (isHN user)}}12210000447304{{else}}13510000535586{{/if}}<span class="_ _0"></span> <span class="_ _b"> </span></span>Tại ngân hàng: <span class="ff8">B<span class="_ _0"></span>IDV<span class="ff4"> </span></span>chi nhánh {{#if (isHN user)}}Hà Thàn{{else}}Gia Địn{{/if}}<span class="_ _0"></span>h<span class="ff4"> </span></div><div class="t m0 x7 h5 y1f ff5 fs3 fc0 sc0 ls0 ws0">Nội dung: 1. Nộp tiền <span class="_ _0"></span>vào TK 068C<span class="_ _0"></span><span class="ff4"> <span class="_ _6"></span><span class="ls3">.....................<span class="ls0"> <span class="_ _2"></span><span class="ff5">T<span class="_ _0"></span>ên chủ TK: <span class="ff4"> <span class="_ _6"></span><span class="ls3">....................................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></span></span></span></span></div><div class="t m0 x7 h5 y20 ff4 fs3 fc0 sc0 ls3 ws0">              <span class="ls0">   <span class="ls6">2.</span> <span class="ff5">N<span class="_ _0"></span>ộp tiền vào T<span class="_ _0"></span>K 068C</span> <span class="_ _8"></span><span class="ls3">.....................<span class="ls0"> <span class="_ _2"></span><span class="ff5">T<span class="_ _0"></span>ên chủ TK: <span class="ff4"> <span class="_ _3"></span><span class="ls3">....................................................................................<span class="ls0"> <span class="_ _8"></span> </span></span></span></span></span></span></span></div></div></div><div class="pi" data-data='{"ctm":[1.000000,0.000000,0.000000,1.000000,0.000000,0.000000]}'></div></div>
+<div id="pf2" class="pf w0 h0" data-page-no="2"><div class="pc pc2 w0 h0"><img class="bi x0 y2e w5 h14" alt="" src="{{host}}/assets/imgs/3/2.png"/><div class="c x1 y1 w2 h0"><div class="t m0 x2 h2 y2 ff1 fs0 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h2 y2f ff1 fs0 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h15 y30 ff3 fs7 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h15 y31 ff3 fs7 fc0 sc0 ls0 ws0">VIET CAPITAL SECURITIES JOINT STOCK COMPANY </div><div class="t m0 x0 h2 y4 ff1 fs0 fc0 sc0 ls0 ws0"> <span class="_ _c"> </span> <span class="_ _d"> </span>2<span class="ff3 fs7"> </span></div><div class="t m0 x0 h2 y5 ff1 fs0 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y32 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h5 y33 ff2 fs3 fc0 sc0 ls0 ws0">Chủ Tài Khoản Cam Kết:<span class="_ _0"></span><span class="ff4"> </span></div><div class="t m0 x0 h5 y9 ff4 fs3 fc0 sc0 ls0 ws0">- <span class="_ _e"> </span><span class="ff5">Cung cấp thông tin về <span class="_ _0"></span>việc chuyển khoàn, số <span class="_ _0"></span>tài khoản nêu tr<span class="_ _0"></span>ên là hoàn toàn chín<span class="_ _0"></span>h xác. <span class="_ _9"></span></span> </div><div class="t m0 x0 h5 y34 ff4 fs3 fc0 sc0 ls0 ws0">- <span class="_ _e"> </span><span class="ff5">Đã <span class="_ _f"></span>đọc, <span class="_ _f"></span>hiểu <span class="_ _10"></span>và <span class="_ _f"></span>được <span class="_ _f"></span>hướ<span class="_ _0"></span>ng <span class="_ _9"></span>d<span class="_ _0"></span>ẫn <span class="_ _f"></span>đầ<span class="_ _0"></span>y <span class="_ _9"></span>đủ<span class="_ _0"></span> <span class="_ _f"></span>về <span class="_ _f"></span>quy <span class="_ _f"></span>định<span class="_ _0"></span> <span class="_ _9"></span>tr<span class="_ _0"></span>ong <span class="_ _f"></span>giao <span class="_ _f"></span>dich <span class="_ _f"></span>c<span class="_ _0"></span>huyển <span class="_ _f"></span>khoản <span class="_ _10"></span>trực <span class="_ _f"></span>tuyến. <span class="_ _f"></span>Chủ <span class="_ _f"></span>t<span class="_ _0"></span>ài <span class="_ _f"></span>khoản </span></div><div class="t m0 x9 h7 y35 ff5 fs3 fc0 sc0 ls0 ws0">thừa nhận r<span class="_ _0"></span>ằng trong g<span class="_ _0"></span>iao dịch trực<span class="_ _0"></span> tuyến luôn <span class="_ _0"></span>tiềm <span class="_ _0"></span>ẩn các rủi <span class="_ _9"></span>ro tiềm<span class="_ _0"></span> tàng như <span class="_ _0"></span>chậm<span class="_ _0"></span>, lỗi, bị đứt đư<span class="_ _0"></span>ờng tru<span class="_ _0"></span>yền…, </div><div class="t m0 x9 h7 yc ff5 fs3 fc0 sc0 ls0 ws0">khi đã sử dụng <span class="_ _0"></span>dịch vụ nà<span class="_ _0"></span>y, chủ tài khoản chịu trách<span class="_ _0"></span> nhiệm và thư<span class="_ _0"></span>ờng xuyên k<span class="_ _0"></span>iểm tra, theo dõi để đ<span class="_ _0"></span>ảm bảo tất c<span class="_ _0"></span>ả </div><div class="t m0 x9 h5 yd ff5 fs3 fc0 sc0 ls0 ws0">các yêu cầu và chỉ thị của <span class="_ _0"></span>mình đã được VCSC<span class="_ _0"></span> thực hiện đúng.<span class="_ _9"></span><span class="ff4"> </span></div><div class="t m0 x0 h5 y36 ff4 fs3 fc0 sc0 ls0 ws0">- <span class="_ _e"> </span><span class="ff5">Đồng ý để VCSC tríc<span class="_ _0"></span>h phí chuyển t<span class="_ _0"></span>iền ra bên n<span class="_ _0"></span>goài (nếu có) từ T<span class="_ _0"></span>K GDCK của m<span class="_ _0"></span>ình.</span> </div><div class="t m0 x0 h5 yf ff4 fs3 fc0 sc0 ls0 ws0">- <span class="_ _e"> </span><span class="ff5">Trong <span class="_ _9"></span>thời <span class="_ _0"></span>hạn <span class="_ _9"></span>07 <span class="_ _0"></span>(b<span class="_ _0"></span>ảy) <span class="_ _0"></span>ngà<span class="_ _0"></span>y <span class="_ _0"></span>kể <span class="_ _9"></span>từ <span class="_ _0"></span>ngà<span class="_ _0"></span>y <span class="_ _0"></span>các <span class="_ _0"></span>gia<span class="_ _0"></span>o <span class="_ _0"></span>dịch <span class="_ _9"></span>chuyển <span class="_ _9"></span>khoản <span class="_ _9"></span>được <span class="_ _0"></span>ho<span class="_ _0"></span>àn <span class="_ _9"></span>tất <span class="_ _0"></span>m<span class="_ _0"></span>à <span class="_ _0"></span>c<span class="_ _0"></span>hủ <span class="_ _0"></span>TK <span class="_ _0"></span>k<span class="_ _0"></span>hông <span class="_ _0"></span>có <span class="_ _9"></span>khiếu </span></div><div class="t m0 x9 h5 y37 ff5 fs3 fc0 sc0 ls0 ws0">nại thì VCSC đư<span class="_ _0"></span>ợc miễn trừ mọi trách n<span class="_ _0"></span>hiệm pháp l<span class="_ _0"></span>ý (nếu có) liên quan đế<span class="_ _0"></span>n các giao d<span class="_ _0"></span>ịch chuyển tiền đó.<span class="_ _9"></span><span class="ff4"> </span></div><div class="t m0 x0 h5 y38 ff4 fs3 fc0 sc0 ls0 ws0">- <span class="_ _e"> </span><span class="ff5">Giấy <span class="_ _10"></span>đăng<span class="_ _0"></span> <span class="_ _10"></span>k<span class="_ _0"></span>ý <span class="_ _10"></span>tài <span class="_ _11"> </span>khoản <span class="_ _11"> </span>nhận <span class="_ _10"> </span>c<span class="_ _0"></span>huyển <span class="_ _10"></span>k<span class="_ _0"></span>hoản <span class="_ _11"> </span>này <span class="_ _10"> </span>là<span class="_ _0"></span> <span class="_ _10"></span>bộ <span class="_ _11"> </span>phận <span class="_ _11"> </span>không <span class="_ _11"> </span>tách <span class="_ _10"> </span>r<span class="_ _0"></span>ời <span class="_ _10"></span>củ<span class="_ _0"></span>a <span class="_ _10"></span>“Hợp <span class="_ _11"> </span>đồng <span class="_ _11"> </span>dịch <span class="_ _11"> </span>vụ <span class="_ _11"> </span>giao <span class="_ _10"> </span>dịc<span class="_ _0"></span>h </span></div><div class="t m0 x9 h5 y39 ff5 fs3 fc0 sc0 ls0 ws0">chứng khoán trực tu<span class="_ _0"></span>yến” đã được k<span class="_ _0"></span>ý giữa Khách hàng v<span class="_ _0"></span>à Công ty.<span class="_ _0"></span><span class="ff4"> </span></div><div class="t m0 x0 h5 y3a ff5 fs3 fc0 sc0 ls0 ws0">Giấy đăng k<span class="_ _0"></span>ý này có hiệu lực kể từ ngà<span class="_ _0"></span>y đăng ký cho đến khi có sự th<span class="_ _0"></span>ay đổi bằng văn b<span class="_ _0"></span>ản c<span class="_ _0"></span>ủ<span class="_ _0"></span>a Chủ tài khoả<span class="_ _0"></span>n.<span class="ff4"> </span></div><div class="t m0 x9 h6 y3b ff7 fs3 fc0 sc0 ls3 ws0">                      <span class="_ _0"></span>             <span class="_ _0"></span>                  <span class="_ _0"></span>                    <span class="_ _0"></span>             <span class="_ _0"></span> <span class="_ _0"></span><span class="ls0"> <span class="_ _12"> </span></span>    <span class="ff6 ls0">……………., ng<span class="_ _0"></span>ày……  tháng …… <span class="_ _0"></span>năm 20…...<span class="_ _0"></span><span class="ff3"> </span></span></div></div><div class="c xa y3c w6 h16"><div class="t m0 xb h6 y3d ff2 fs3 fc0 sc0 ls0 ws0">Chủ Tài Khoản<span class="_ _0"></span><span class="ff3"> </span></div><div class="t m0 xc h17 y3e ff6 fs3 fc0 sc0 ls0 ws0">(Ký và ghi rõ họ tên)<span class="_ _0"></span><span class="ff8"> </span></div></div><div class="c xd y3c w7 h16"><div class="t m0 xe h6 y3d ff3 fs3 fc0 sc0 ls0 ws0">Nhân viên </div><div class="t m0 xf h17 y3e ff6 fs3 fc0 sc0 ls0 ws0">(Ký và ghi rõ họ tên)<span class="_ _0"></span><span class="ff8"> </span></div></div><div class="c x10 y3c w8 h16"><div class="t m0 x11 h6 y3d ff2 fs3 fc0 sc0 ls0 ws0">Kiểm soát<span class="ff3"> </span></div><div class="t m0 xb h6 y3e ff6 fs3 fc0 sc0 ls0 ws0">(Ký và ghi rõ họ tên)<span class="_ _0"></span><span class="ff3"> </span></div><div class="t m0 x8 h6 y3f ff3 fs3 fc0 sc0 ls0 ws0"> </div></div><div class="c x12 y3c w9 h16"><div class="t m0 x13 h6 y3d ff2 fs3 fc0 sc0 ls0 ws0">Giám đốc<span class="ff3"> </span></div><div class="t m0 x8 hb y3e ff6 fs3 fc0 sc0 ls0 ws0">(Ký, đóng dấu và ghi r<span class="_ _0"></span>õ họ tên)<span class="_ _0"></span><span class="ff7"> </span></div></div><div class="c x1 y1 w2 h0"><div class="t m0 x0 h6 y40 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y41 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y42 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y43 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y44 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y45 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y46 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y47 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y48 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x14 h6 y49 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y4a ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y4b ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y4c ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y4d ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y4e ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y4f ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y50 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y51 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y52 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y53 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y54 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y55 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y56 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y57 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y58 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y59 ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y5a ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y5b ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h6 y5c ff3 fs3 fc0 sc0 ls0 ws0"> </div><div class="t m0 x0 h17 y5d ff9 fs3 fc0 sc0 ls0 ws0">(*) Số ĐKSH : <span class="_ _0"></span><span class="ff8"> </span></div><div class="t m0 x0 hb y5e ff7 fs3 fc0 sc0 ls0 ws0">- <span class="ff6">Cá nhân : số C<span class="_ _0"></span>MND/ Căn cước c<span class="_ _0"></span>ông dân<span class="_ _0"></span></span> </div><div class="t m0 x0 h5 y5f ff7 fs3 fc0 sc0 ls0 ws0">- <span class="ff6">Tổ chức : số ĐKKD/ <span class="_ _0"></span>giấy phép thành lập<span class="_ _0"></span><span class="ff4"> </span></span></div></div></div><div class="pi" data-data='{"ctm":[1.000000,0.000000,0.000000,1.000000,0.000000,0.000000]}'></div></div>
+</div>
+<div class="loading-indicator">
+<img alt="" src="{{host}}/assets/imgs/3/3.png"/>
+</div>
+</body>
+</html>

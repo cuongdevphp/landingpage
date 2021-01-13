@@ -1,0 +1,160 @@
+﻿{
+  "banks": [
+  {
+    "text": "ABB-NHTMCP AN BINH-CN TPHCM",
+    "value": "79323001"
+  },
+  {
+    "text": "ACB-A CHAU CN HA NOI",
+    "value": "79307001"
+  },
+  {
+    "text": "AGRI-NHNOVAPTNT-HOI SO CHINH - HA NOI",
+    "value": "1204001"
+  },
+  {
+    "text": "BAC A-NHTMCP BAC A-CN TPHCM",
+    "value": "79313001"
+  },
+  {
+    "text": "BAO VIET-NHTMCP BAO VIET-CN TPHCM",
+    "value": "79359001"
+  },
+  {
+    "text": "BIDV-NHTMCP DTVAPT VN-CN TP HO CHI MINH",
+    "value": "79202002"
+  },
+  {
+    "text": "CBB-NHTM XAY DUNG VN-CN LAM GIANG - TPHCM",
+    "value": "79339002"
+  },
+  {
+    "text": "CITI-CITI BANK HANOI",
+    "value": "01605001"
+  },
+  {
+    "text": "DAI CHUNG-NHTMCP DAI CHUNG VN-CN TPHCM",
+    "value": "79360001"
+  },
+  {
+    "text": "DONG A-NHTMCP DONG A-HOI SO CHINH - TPHCM",
+    "value": "79304001"
+  },
+  {
+    "text": "DONG NAM A-NHTMCP DONG NAM A-CN TPHCM",
+    "value": "79317002"
+  },
+  {
+    "text": "EIB-NH TMCP XUAT NHAP KHAU - CN TP HCM",
+    "value": "79305008"
+  },
+  {
+    "text": "HDB-NHTMCP PHAT TRIEN TPHCM-HOI SO - TPHCM",
+    "value": "79321001"
+  },
+  {
+    "text": "HONGLEONG-NH TNHH MTV HONG LEONG VN HSC - TPHCM",
+    "value": "79603001"
+  },
+  {
+    "text": "HSBC-NH TNHH MTV HSBC VN - TPHCM",
+    "value": "79617001"
+  },
+  {
+    "text": "KIEN LONG-NHTMCP KIEN LONG-CN SAI GON",
+    "value": "79353001"
+  },
+  {
+    "text": "LIEN VIET-NHTMCP BUU DIEN LIEN VIET-CN TPHCM",
+    "value": "79357001"
+  },
+  {
+    "text": "MBB-QUAN DOI HA NOI",
+    "value": "01311001"
+  },
+  {
+    "text": "MSB-NHTMCP HANG HAI VN-CN TPHCM",
+    "value": "79302001"
+  },
+  {
+    "text": "NAM A-NHTMCP NAM A-CN TPHCM",
+    "value": "79306001"
+  },
+  {
+    "text": "OCB-PHUONG DONG CN HA NOI",
+    "value": "79333001"
+  },
+  {
+    "text": "PGB-NHTMCP XANG DAU PETROLIMEX-CN SAI GON",
+    "value": "79341001"
+  },
+  {
+    "text": "PVB-NHTMCP DAI CHUNG VN-CN TPHCM",
+    "value": "79360001"
+  },
+  {
+    "text": "QUOC DAN-NHTMCP QUOC DAN",
+    "value": "01352002"
+  },
+  {
+    "text": "SCB-SAI GON CN HAI BA TRUNG",
+    "value": "79334001"
+  },
+  {
+    "text": "SGB-NHTMCP SAI GON CONG THUONG - TPHCM",
+    "value": "79308001"
+  },
+  {
+    "text": "SHB-NHTMCP SAI GON HA NOI-HOI SO - HA NOI",
+    "value": "01348002"
+  },
+  {
+    "text": "SHINHAN-NH TNHH MTV SHINHAN VN-CN TPHCM",
+    "value": "79616002"
+  },
+  {
+    "text": "STAND-STANDARD CHARTERED BANK-CN TPHCM",
+    "value": "79604001"
+  },
+  {
+    "text": "STB-NHTMCP SAI GON THUONG TIN-HOI SO - TPHCM",
+    "value": "79303001"
+  },
+  {
+    "text": "TCB-NHTMCP KY THUONG VN-HOI SO CHINH -HA NOI",
+    "value": "01310001"
+  },
+  {
+    "text": "TPB-NHTMCP TIEN PHONG-CN TPHCM",
+    "value": "79358001"
+  },
+  {
+    "text": "VCB-NH TMCP NGOAI THUONG-CN TPHCM",
+    "value": "79203001"
+  },
+  {
+    "text": "VCCB-NHTMCP BAN VIET-CN TPHCM",
+    "value": "79327004"
+  },
+  {
+    "text": "VIB-NHTMCP QUOC TE VN-CN TPHCM",
+    "value": "79314001"
+  },
+  {
+    "text": "VIET A-NHTMCP VIET A-CN TPHCM",
+    "value": "79355007"
+  },
+  {
+    "text": "VIET BANK-NHTMCP VIET NAM THUONG TIN-CN TPHCM",
+    "value": "79356001"
+  },
+  {
+    "text": "VIETIN-NHTMCP CONG THUONG-CN-TP HO CHI MINH",
+    "value": "79201001"
+  },
+  {
+    "text": "VPB-NHTMCP VN THINH VUONG-CN TPHCM",
+    "value": "79309001"
+  }
+]
+}
